@@ -403,7 +403,7 @@ class Facebook {
 				} else {
 					json = {
 						error: { 
-							code 'NOTJSON', 
+							code: 'NOTJSON', 
 							Error: "Received unexpected content-type: " + response.headers['content-type']
 						}
 					};
